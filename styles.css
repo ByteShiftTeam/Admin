@@ -1,0 +1,66 @@
+/* Sidebar */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    background: #2C3E50;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background: #34495E;
+}
+
+/* Content */
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+/* Dashboard Cards */
+.dashboard-stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #1ABC9C;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 200px;
+}
+
+/* Players Table */
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Button */
+.btn-primary {
+    margin-bottom: 10px;
+}
