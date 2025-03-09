@@ -8,7 +8,7 @@
 /* Body styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('images/stadium.jpg'); /* Full background image */
+    background-image: url('images/stadiums.jpg'); /* Full background image */
     background-size: cover;
     background-position: center;
     color: #333;
@@ -22,21 +22,60 @@ body {
 
 /* Navigation Bar */
 .navbar {
-    background-color: #3498db; /* Blue color */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    padding: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 22px;
     font-weight: bold;
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+    border-radius: 3px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px; /* Adds spacing between nav items */
 }
 
 .navbar-nav .nav-link {
     color: white !important;
-    font-size: 1.2rem;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #f39c12 !important;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.navbar-nav .logout {
+    background: red;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navbar-nav .logout:hover {
+    background: darkred;
 }
 
 /* Main content area */
