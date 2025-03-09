@@ -38,7 +38,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="text" id="university" name="university" required><br><br>
 
         <label for="role">Role:</label><br>
-        <input type="text" id="role" name="role" required><br><br>
+        <select type="text" id="role" name="role" required >
+            <option value="Batsman">Batsman</option>
+            <option value="Bowler">Bowler</option>
+            <option value="Allrounder" selected>Allrounder</option>
+        </select>
+        <br><br>
 
         <label for="runs">Runs:</label><br>
         <input type="number" id="runs" name="runs" required><br><br>

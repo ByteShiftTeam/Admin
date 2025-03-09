@@ -1,4 +1,4 @@
-<?php include 'db.php'; // Include the database connection
+<?php include 'db.php';                                                                                                                        // Include the database connection
 
 // Fetch players from the database
 $query = "SELECT * FROM players";
