@@ -73,10 +73,10 @@ $highestWicketTaker = mysqli_fetch_assoc($highestWicketTakerResult);
                     <p id="topWicketTaker"><?php echo $highestWicketTaker['name']; ?></p>
                 </div>
             </div>
-
+            <h2>Players Management</h2>
             <!-- Players Table -->
             <div class="players-management">
-                <h2>Players Management</h2>
+                
                 <button class="btn btn-primary" onclick="window.location.href='add_player.php'">Add Player</button>
                 <table class="table table-bordered">
                     <thead>
